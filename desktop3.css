@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+.main{
+    color: #FFF;
+font-family: 'Roboto', sans-serif;
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.image-container {
+    position: relative;
+}
+.overlap {
+    position: absolute;
+    top: 50%; 
+    left: 20%; 
+    transform: translate(-50%, -50%);
+    text-align: left; 
+}
+.connect{
+    color: #FFF;
+font-family: 'Roboto', sans-serif;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 6.46px;
+}
+.connected{
+    position: absolute;
+    top: 50%; 
+    left: 75%; 
+    transform: translate(-50%, -50%);
+}
+.connectbox{
+    color: #FFF;
+font-family: 'Inter', sans-serif;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 20px;
+border: 4px solid #38AC84;
+background: #295952;
+text-align: center;
+padding: 10px 20px;
+}
