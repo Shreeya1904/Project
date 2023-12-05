@@ -2,14 +2,8 @@ body{
     background-color: black;
 }
 .image-container {
-    position: relative;
+    display: flex;
 }
-.content{
-    position: absolute;
-    top: 10%;
-    left:10%;
-}
-
 .connectbox{
     color: #FFF;
 font-family: 'Inter', sans-serif;
